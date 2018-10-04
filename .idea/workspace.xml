@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a83a372-2bf3-47e8-b1c2-75ba7d2ef2b5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/hackernews_graphql_java_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/hackernews_graphql_java_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_8_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_kotlin_2_8_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_graphql_java_graphql_java_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_graphql_java_graphql_java_servlet_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_graphql_java_graphql_java_tools_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_leangen_geantyref_geantyref_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_leangen_graphql_spqr_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_reflect_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_vyarus_generics_resolver_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackernews-graphql-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/AuthContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/AuthData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphQLEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/SanitizedError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Scalars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/SigninPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/SigninResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Vote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/VoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/VoteResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/AuthContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/AuthData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/GraphQLEndpoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/Link.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/LinkFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/LinkRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/LinkResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/Mutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/Query.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/SanitizedError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/Scalars$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/Scalars.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/SigninPayload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/SigninResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/Vote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/VoteRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/VoteResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/schema.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/AuthContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/AuthData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/GraphQLEndpoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/Link.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/LinkFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/LinkRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/LinkResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/Mutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/Query.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/SanitizedError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/Scalars$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/Scalars.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/SigninPayload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/SigninResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/Vote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/VoteRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/com/howtographql/hackernews/VoteResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/classes/schema.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/annotations-13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/antlr4-runtime-4.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/asm-commons-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/asm-tree-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/bson-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/geantyref-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/generics-resolver-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/graphql-java-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/graphql-java-servlet-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/graphql-java-tools-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/guava-21.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/jackson-annotations-2.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/jackson-core-2.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/jackson-databind-2.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/jackson-datatype-jdk8-2.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/jackson-module-kotlin-2.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/kotlin-reflect-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/kotlin-stdlib-1.1.3-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/mongodb-driver-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/mongodb-driver-core-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/reflectasm-1.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/slf4j-api-1.7.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/WEB-INF/lib/spqr-0.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hackernews/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GraphQLEndpoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphQLEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="31" column="64" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="298">
+                <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-128">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Query.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Query.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mutation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VoteRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/VoteRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/AuthContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/AuthData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Link.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>authPro</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Link.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Vote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/VoteResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Scalars.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/VoteRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/SanitizedError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Query.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphQLEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2272" />
+    <option name="y" value="-1178" />
+    <option name="width" value="1680" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hackernews-graphql-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackernew-graphql-java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackernews-graphql-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackernew-graphql-java" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackernews-graphql-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackernew-graphql-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackernews-graphql-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackernew-graphql-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackernews-graphql-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackernew-graphql-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackernews-graphql-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackernew-graphql-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hackernews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackernews-graphql-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackernew-graphql-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a83a372-2bf3-47e8-b1c2-75ba7d2ef2b5" name="Default" comment="" />
+      <created>1538144611692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538144611692</updated>
+      <workItem from="1538144614903" duration="128000" />
+      <workItem from="1538145810718" duration="3302000" />
+      <workItem from="1538564228562" duration="112000" />
+      <workItem from="1538639945136" duration="1816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5358000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2272" y="-1178" width="1680" height="1028" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="GraphQL" weight="0.32975295" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46079484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphQLEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/SanitizedError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Vote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/VoteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphQLEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/SanitizedError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Vote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/VoteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Scalars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/VoteResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/SanitizedError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Vote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphQLEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="31" column="64" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/VoteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/AuthData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/AuthContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="298">
+            <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

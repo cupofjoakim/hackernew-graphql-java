@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hackernews-graphql-java:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="hackernews.war">
+      <element id="artifact" artifact-name="hackernews-graphql-java:war exploded" />
+    </root>
+  </artifact>
+</component>
