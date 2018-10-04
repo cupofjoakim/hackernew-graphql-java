@@ -55,6 +55,6 @@ Use the token under "HTTP_HEADERS" in GraphQL Playground
 }
 ```
 
-With this you're then ready to experiment with queries and mutations such as `allLinks`, `createVote` and `createLink`. You'll find information about the schema if you press the green "SCHEMA" button in GraphQL Playground.
+With this you're then ready to experiment with queries and mutations such as `allLinks`, `createVote` and `createLink`. You'll find information about the schema if you press the green "SCHEMA" button in GraphQL Playground. Hint: `allLinks` supports pagination!
 
 ![https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif](https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif)
